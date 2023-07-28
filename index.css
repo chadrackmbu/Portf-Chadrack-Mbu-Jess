@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    margin: auto;
+}
 .header{
     min-height: 100vh;
     width: 100%;
