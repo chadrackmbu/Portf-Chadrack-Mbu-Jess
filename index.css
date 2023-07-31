@@ -56,7 +56,11 @@
     font-size: 18px;
     font-family: "roboto";
   }
-  
+  .bon a{
+    text-decoration: none;
+   
+    font-family: "roboto";
+  }
   
   .menu li:hover {
     background-color: #0099cc;
@@ -75,7 +79,53 @@
     height: auto;
     border-radius: 10%;
   }
- 
+  .bon {
+    margin-left: 10%;
+    padding: 1%;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgb(9, 9, 9);
+    background-color: #f4d10b;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 2px #999;
+    margin-top: 10%;
+    margin-top: 1%;
+    
+}
+
+.bon:hover {background-color: #3e8e41}
+
+.bon:active {
+    background-color: #3e8e41;
+  box-shadow: 0 5px rgb(253, 251, 251);
+  transform: translateY(4px);
+}
+.bonne {
+  margin-left: 10%;
+  padding: 1%;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: rgb(9, 9, 9);
+  background-color: #d4d4d3;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 2px #999;
+}
+.a{
+  color: yellow;
+}
+.bonne:hover {background-color: #3e8e41}
+
+.bonne:active {
+    background-color: #3e8e41;
+  box-shadow: 0 5px rgb(251, 250, 250);
+  transform: translateY(4px);
+}
   
   .footer {
     background-color: #0099cc;
