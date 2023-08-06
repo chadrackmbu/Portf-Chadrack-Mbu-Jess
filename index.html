@@ -1,48 +1,157 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-<div class="header">
-  <h1  style="font-family: Trebuchet MS; color: white; text-align: center;">Bienvenue dans le Portfolio Chadrack MBU PIOKA Jess</h1>
-</div>
+    
+    <header class="header">
+        <a href="#" class="logo"><img src="photo/logo mbujess blanc.png" alt=""width="60" height="40"> Jessna</a>
 
-<div class="row">
-  <div class="col-3 col-s-3 menu">
-    <div class="nav-links">
-      <ul>
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="page/service/service.html">Services</a></li>
-        <li><a href="#">Formation</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Mon histoire</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="col-6 col-s-6">
-    <h3 style="font-family: Trebuchet MS; color: white;">Salut je suis</h3>
-    <h1 style="font-family: Kristen ITC;color: white;">Chadrack MBU JESS</h1>
-    <h3 style="font-family: Trebuchet MS;color: white;">Et je suis <span style="color: yellow;">developpeur Front-End</span></h3>
-    <p style="font-family: Trebuchet MS;color: white; text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non hendrerit lectus. Duis bibendum posuere elit. Aenean sit amet lacus vel leo sollicitudin rhoncus. Donec magna neque, congue at sodales sit amet, venenatis quis felis. Curabitur lacinia semper justo, vitae lobortis augue placerat ac. Donec turpis nisi, hendrerit ut iaculis a, sodales varius libero. Mauris neque arcu, lacinia nec aliquam id, cursus et ante. Fusce porta convallis rhoncus. Aliquam erat volutpat. Nulla facilisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a augue velit, et cursus quam. Cras massa mauris, dictum quis aliquet ut, eleifend ut risus.Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
-  </div>
+        <div id="menu-icon" ><img src="photo/bx-menu.svg" alt=""></i></div>
+        
+        <nav class="navbar">
+            <a href="#home" class="active">Accueil</a>
+            <a href="#about">A propos</a>
+            <a href="#education">Education</a>
+            <a href="#formation">Formation</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-  <div class="col-3 col-s-12">
-    <div class="aside">
-      <img src="photo/mbu.jpg" width="250px" height="370px">
-    </div>
-  </div>
-</div>
-<form action="">
-  <button class="bon">
-      <i class=""></i> <a href="Curriculum Chadrack Mbu.rar" download>Télécharger le cv</a>
-  </button>
-  <button class="bonne"><i class=""></i> Contactez-moi</button>
-</form>
-<div class="footer">
-  <p>Resize the browser window to see how the content respond to the resizing.</p>
-</div>
+    <section class="home" id="home">
+        <div class="home-content">
+            
+            <h1>Hi! I'm <span>Chadrack MBU JESS</span></h1>
+            <div class="text-animate">
+                <h3>Developpeur Front-End</h3>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate inventore exercitationem molestias aliquid ex est deserunt et quis! Veniam suscipit reprehenderit praesentium maxime perspiciatis porro. Possimus amet doloremque magnam quis.</p>
+            <div class="btn-box">
+                <a href="#" class="btn">Engager Moi</a>
+                <a href="#" class="btn">Télécharger Mon CV</a>
+            </div>
+        </div>
 
+        <div class="home-sci">
+            <a href="#"><img src="photo/bx-phone.svg" alt=""></a>
+            <a href="#"><img src="photo/bxl-whatsapp.svg" alt=""></a>
+            <a href="#"><img src="photo/bxl-facebook.svg" alt=""></a>
+            <a href="#"><img src="photo/bxl-gmail.svg" alt=""></a>
+            <a href="#"><img src="photo/bxl-instagram.svg" alt=""></a>
+        </div>
+        <div class="home-imgHover">
+            <img src="photo/mbu.png" alt="" width="540rem" height="100%">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2 class="heading">A propos de <span>Nous</span></h2>
+
+        <div class="about-img">
+            <img src="photo/JESS_SIANA.jpg" alt="">
+            <span class="circle-spin"></span>  
+        </div>
+           
+        <div class="about-content">
+            <h3>Developpeur Front-End !</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus iure, iste pariatur veniam magnam numquam aperiam, 
+                tenetur voluptates, beatae vero animi saepe dolorem esse temporibus vitae labore perferendis eius exercitationem. 
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia alias doloribus sit dicta qui, modi fuga error 
+                quaerat perspiciatis corrupti, eveniet accusantium voluptates ab sapiente et dolore natus vitae veniam.
+            </p>
+
+            <div class="btn-box btns">
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <h2 class="heading">Mes <span>Etudes</span> faites</h2>
+        <div class="education-row">
+            <div class="education-column">
+                <h3 class="title">Education</h3>
+                <div class="education-box">
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"> <img src="photo/calendar-regular-24.png" alt=""> 2011 - 2012</div>
+                            <h3>Certification d'Etat</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, porro sed. Laboriosam vitae fuga ab temporibus nisi, voluptatibus maxime odio. Dolore adipisci cumque itaque harum ducimus eos pariatur iure minus!
+
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"> <img src="photo/calendar-regular-24.png" alt=""> 2017 - 2018</div>
+                            <h3>Obtention de Diplôme d'Etat</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, porro sed. Laboriosam vitae fuga ab temporibus nisi, voluptatibus maxime odio. Dolore adipisci cumque itaque harum ducimus eos pariatur iure minus!
+
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><img src="photo/calendar-regular-24.png" alt=""> 2021-2022
+                            </div>
+                                 <h3>Diplôme de Graduat</h3>
+                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, porro sed. Laboriosam vitae fuga ab temporibus nisi, voluptatibus maxime odio. Dolore adipisci cumque itaque harum ducimus eos pariatur iure minus!
+        
+                                 </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="education-column">
+                <h3 class="title">Expériences Professionnelles</h3>
+                <div class="education-box">
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><img src="photo/calendar-regular-24.png" alt=""> 2011 - 2012</div>
+                            <h3>Web Developer - compagny</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, porro sed. Laboriosam vitae fuga ab temporibus nisi, voluptatibus maxime odio. Dolore adipisci cumque itaque harum ducimus eos pariatur iure minus!
+
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"> <img src="photo/calendar-regular-24.png" alt=""> 2017 - 2018</div>
+                            <h3>Web Developer - compagny</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, porro sed. Laboriosam vitae fuga ab temporibus nisi, voluptatibus maxime odio. Dolore adipisci cumque itaque harum ducimus eos pariatur iure minus!
+
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><img src="photo/calendar-regular-24.png" alt=""> 2021-2022
+                            </div>
+                                 <h3>Web Developer - compagny</h3>
+                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, porro sed. Laboriosam vitae fuga ab temporibus nisi, voluptatibus maxime odio. Dolore adipisci cumque itaque harum ducimus eos pariatur iure minus!
+        
+                                 </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
 </body>
 </html>
