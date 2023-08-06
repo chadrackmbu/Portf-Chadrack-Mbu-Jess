@@ -636,6 +636,7 @@ span {
 
 @media (max-width: 380px) {
     .home .home-content {
+        margin-top: -20%;
         padding-right: 5rem;
         width: 100%;
     
@@ -656,6 +657,7 @@ span {
         margin-left: 10px;
         width: 37.5rem;
         height: 4rem;
+        margin-bottom: 20px;
     }
 }
 
