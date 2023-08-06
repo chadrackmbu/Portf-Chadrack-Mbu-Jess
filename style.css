@@ -634,6 +634,31 @@ span {
     }
 }
 
+@media (max-width: 380px) {
+    .home .home-content {
+        padding-right: 5rem;
+        width: 100%;
+    
+    }
+    .btn-box {
+        padding-right: 20%;
+    }
+    .btn-box .btn {
+        font-size: 12px;
+        padding-right: 5px;
+        text-align: center;
+    }
+
+    .btn-box {
+        
+        display: flex;
+        margin-right: 10px;
+        margin-left: 10px;
+        width: 37.5rem;
+        height: 4rem;
+    }
+}
+
 @media (max-width: 768px) {
     .header{
         background: var(--bg-color);
